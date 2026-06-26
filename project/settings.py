@@ -33,6 +33,9 @@ ALLOWED_HOSTS = [
     'productapp-hmcufzgyfgecbqbz.polandcentral-01.azurewebsites.net'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://productapp-hmcufzgyfgecbqbz.polandcentral-01.azurewebsites.net',
+]
 
 # Application definition
 
