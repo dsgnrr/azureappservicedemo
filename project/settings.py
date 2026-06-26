@@ -29,7 +29,8 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY');
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*'
+    '169.254.129.2',
+    'productapp-hmcufzgyfgecbqbz.polandcentral-01.azurewebsites.net'
 ]
 
 
