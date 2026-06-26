@@ -3,7 +3,6 @@ from django.views.generic import ListView, CreateView
 from .models import Product
 from .forms import ProductForm
 
-from .product_queries import tag_seed, category_seed
 
 # tag_seed()
 # category_seed()
